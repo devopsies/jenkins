@@ -1,17 +1,17 @@
-# GoMyCode training workshop : CI/CD
+# DevSecOps Workshops: CI/CD
 
 Install Vagrant and VirtualBox in your Vagrant Host machine.
 
 Clone repository:
 
 ```bash
-git clone https://github.com/mdnfiras/gmc-workshop3.git
+git clone https://github.com/mdnfiras/devsecops-ci-cd-jenkins.git
 ```
 
 Launch & SSH into the workshop's Vagrant VM.
 
 ```bash
-cd gmc-workshop3/vm-env
+cd devsecops-ci-cd-jenkins/material
 vagrant up
 vagrant ssh
 ```
@@ -19,6 +19,7 @@ vagrant ssh
 Install Open JDK 11:
 
 ```bash
+sudo apt update
 sudo apt install openjdk-11-jdk -y
 ```
 
@@ -50,5 +51,5 @@ Print the initial admin password:
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-Exit the VM's SSH session, visit the VM's IP address http://192.168.20.2:8080 in your web browser and paste the password to get access to Jenkins' web interface.
+Exit the VM's SSH session, visit your localhost on port `8080` in your web browser and paste the password to get access to Jenkins' web interface. Chose to install the suggested plugins.
 
