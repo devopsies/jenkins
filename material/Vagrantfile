@@ -1,5 +1,5 @@
 nodes = [
-	{:hostname => "jenkins", :cpus => 2, :mem => 1024, :prov_script => "init.sh"}
+	{:hostname => "jenkins", :cpus => 2, :mem => 2048, :prov_script => "init.sh"}
 ]
 
 
