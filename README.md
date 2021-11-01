@@ -1,6 +1,6 @@
 # DevSecOps Workshops: CI/CD
 
-This is a brief introduction to Jenkins, followed by a workshop. For the workshop material, visit <a href="https://github.com/mdnfiras/devsecops-ci-cd-jenkins" target="_blank">github.com/mdnfiras/devsecops-ci-cd-jenkins</a>. For a complete documentation, visit <a href="https://www.jenkins.io/doc/" target="_blank">www.jenkins.io/doc/</a>.
+This is a brief introduction to Jenkins, followed by a workshop. For the workshop material, visit <a href="https://github.com/devopsies/jenkins" target="_blank">github.com/devopsies/jenkins</a>. For a complete documentation, visit <a href="https://www.jenkins.io/doc/" target="_blank">www.jenkins.io/doc/</a>.
 
 ## What is Jenkins?
 
